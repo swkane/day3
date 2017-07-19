@@ -55,7 +55,30 @@ li {
   font-weight: bold;
 }
 
+/*TABLE*/
 
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background: #1fabe5;
+  color: white;
+}
+
+thead td {
+  border: 1px solid #046c97;
+  padding: 10px 10px;
+}
+
+tbody td {
+  border: 1px solid #1fabe5;
+  padding: 10px 10px;
+}
+
+td img {
+  width: 50px;
+}
 
 /*
 font info:
