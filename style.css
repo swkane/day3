@@ -1,0 +1,73 @@
+/*FULL PAGE*/
+
+body {
+  background-image: url(img/bg.jpg);
+}
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  border: 3px solid #ffd24a;
+  border-radius: 3px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/*HEADER*/
+
+#site_header {
+  background: #ff8523;
+  padding: 25px;
+}
+
+.main_navigation {
+  margin: 30px 10px 30px 10px;
+}
+
+
+nav a {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+/*PAGE CONTENT*/
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+#page_content {
+  padding: 20px;
+  background: white;
+}
+
+section {
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 40px;
+}
+
+li {
+  font-weight: bold;
+}
+
+
+
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
